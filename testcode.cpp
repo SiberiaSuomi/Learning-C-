@@ -5,11 +5,14 @@ int main() {
     cout << "Input";
     string a;
     cin >> a;
-    for(int i = 1; i <= 10; ++i) {
-        for(int j = 1; j <= 10; ++j) {
+    int length, width;
+    cout << "Length and Width";
+    cin >> length >> width;
+    for(int i = 1; i <= length; ++i) {
+        for(int j = 1; j <= width; ++j) {
             cout << a << " ";
         }
-        cout << endl; // line break = sanity restored
+        cout << endl; 
     }
     return 0;
 }
